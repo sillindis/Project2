@@ -29,30 +29,22 @@ int main(){
 
 //파일 1의 정보를 가져오는 함수 작성
 void filestat1(){
-	struct stat file1_stat;
-	
-	stat("file1", &file1_stat);
+    
 }
 
 //파일 2의 정보를 가져오는 함수 작성
 void filestat2(){
-	struct stat file2_stat;
-
-	stat("file1", &file2_stat);
+    
 }
 
 //파일 1의 시간 정보를 가져오는 함수 작성
 void filetime1(){
-	struct tm* file1_time;
-
-	file1_time = localtime(&file1_stat.st_mtime);
+    
 }
 
 //파일 2의 시간 정보를 가져오는 함수 작성
 void filetime2(){
-	struct tm* file2_time;
-
-	file2_time = localtime(&file2_stat.st_mtime);
+    
 }
 
 //두 개의 파일 크기를 비교하는 함수 작성
