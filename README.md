@@ -1,5 +1,4 @@
 # Assignment2
-Assignment2
 
 팀장
 2017202092 박성현(sillindis)
