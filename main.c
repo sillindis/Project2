@@ -29,22 +29,19 @@ int main(){
 
 //파일 1의 정보를 가져오는 함수 작성
 void filestat1(){
-    
+	stat("file1.txt", &stat1);
 }
 
 //파일 2의 정보를 가져오는 함수 작성
 void filestat2(){
-    
 }
 
 //파일 1의 시간 정보를 가져오는 함수 작성
 void filetime1(){
-    
 }
 
 //파일 2의 시간 정보를 가져오는 함수 작성
 void filetime2(){
-    
 }
 
 //두 개의 파일 크기를 비교하는 함수 작성
