@@ -66,7 +66,27 @@ void blockcmp(){
 
 //두 개의 파일 수정 날짜를 비교하는 함수 작성
 void datecmp(){
-    
+    printf("\ndate compare");
+    if (time1->tm_mon > time2->tm_mon) {
+        if (time1->tm_mday > time2->tm_mday) {
+            if (time1->tm_hour > time2->tm_hour) {
+                if (time1->tm_min > time2->tm_min) {
+                    printf("\nfile2 is early\n");
+                }
+            }
+        }
+    }
+    else if (time1->tm_mon == time2->tm_mon) {
+        if (time1->tm_mday == time2->tm_mday) {
+            if (time1->tm_hour == time2->tm_hour) {
+                if (time1->tm_min == time2->tm_min) {
+                    printf("\nsame date\n");
+                }
+            }
+        }
+    }
+    else
+        printf("\nfile1 is early\n");
 }
 
 //두 개의 파일 수정 시간을 비교하는 함수 작성
